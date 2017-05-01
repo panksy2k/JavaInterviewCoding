@@ -1,4 +1,4 @@
-package com.pankaj.multithreading;
+package com.pankaj.multithreading.producerConsumer;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

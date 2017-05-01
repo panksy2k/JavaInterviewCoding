@@ -1,4 +1,4 @@
-package com.pankaj.multithreading;
+package com.pankaj.multithreading.producerConsumer;
 
 import java.util.ArrayList;
 import java.util.Arrays;

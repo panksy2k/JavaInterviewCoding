@@ -1,4 +1,4 @@
-package com.pankaj.multithreading;
+package com.pankaj.multithreading.barriers;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -48,8 +48,7 @@ public class SequencingOnCyclicBarrier {
 
                 System.out.println("Ok " + Thread.currentThread().getName() + " has arrived!");
                 return "Ok";
-            } catch (InterruptedException e) {
-                Thread.currentThread().interrupt();
+            } catch (InterruptedException | BrokenBarrierException e) {
                 return "NotOk";
             }
         }
