@@ -4,6 +4,7 @@ import com.pankaj.datastructures.interfaces.iList;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.Arrays;
 import java.util.function.Supplier;
 
 /**
@@ -34,5 +35,8 @@ public class ArrayListTest {
 
         list.add(0, newName.get());
         Assert.assertEquals(list.get(0), newName.get());
+
+        int arr[] = new int[5];
+        Arrays.binarySearch(arr, 5);
     }
 }
